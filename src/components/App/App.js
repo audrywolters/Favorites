@@ -1,18 +1,22 @@
+import React, { Component } from 'react';
 import './App.css';
 
-function App() {
-  return (
-    <div className='App'>
-      <div>Enter your favorite</div>
-      <label>Animal</label>
-      <input></input>
+class App extends Component {
 
-      <label>Color</label>
-      <input></input>
+  render() {
+    return (
+      <div className='App'>
+        <div>Enter your favorite</div>
+        <label>Animal</label>
+        <input></input>
 
-      <button>Save</button>
-    </div>
-  );
+        <label>Color</label>
+        <input></input>
+
+        <button>Save</button>
+      </div>
+    );
+  }
 }
 
 export default App;

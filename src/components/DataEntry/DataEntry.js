@@ -8,15 +8,11 @@ class DataEntry extends Component {
             <div className="dataEntry">
                 <div>Enter your favorite:</div>
                 <label>Animal</label>
-                <div>
-                    <input type='text' />
-                </div>
+                <input type='text' />
                 
-        
                 <label className="inputColor">Color</label>                
                 <input type='text' />
 
-        
                 <button>Save</button>
             </div>
         )

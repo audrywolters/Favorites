@@ -1,20 +1,7 @@
 .App {
-  width: 25%;
-  font-size: 1.5em;
-  margin: 1em;
+  font-size: 1em;
   display: block;
-  float: left;
+  margin: 2em;
 }
 
-label {
-  margin-right: .5em;
-}
 
-input {
-  font-family: monospace;
-  font-size: 1em;
-}
-
-button {
-  font-size: 1em;
-}

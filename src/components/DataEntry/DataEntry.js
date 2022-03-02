@@ -5,16 +5,20 @@ class DataEntry extends Component {
 
     render() {
         return (
-            <>
-                <div>Enter your favorite</div>
+            <div className="dataEntry">
+                <div>Enter your favorite:</div>
                 <label>Animal</label>
-                <input></input>
+                <div>
+                    <input type='text' />
+                </div>
+                
         
-                <label>Color</label>
-                <input></input>
+                <label className="inputColor">Color</label>                
+                <input type='text' />
+
         
                 <button>Save</button>
-            </>
+            </div>
         )
     }
 }

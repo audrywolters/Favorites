@@ -1,0 +1,24 @@
+.dataEntry {
+    width: 20%;
+}
+
+label {
+    float: left;
+    margin-left: .5em;
+    margin-right: .5em;
+}
+  
+input {
+    font-family: monospace;
+    font-size: 1em;
+    width: 15em;
+}
+
+.inputColor {
+    margin-left: .5em;
+    margin-right: 1.1em;
+}
+
+button {
+    font-size: 1em;
+}

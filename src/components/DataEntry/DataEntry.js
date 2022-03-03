@@ -12,17 +12,13 @@ class DataEntry extends Component {
     }
 
     handleInputChange = ( event, propertyName ) => {
-
         this.setState({
             [propertyName]: event.target.value
         })
     }
 
     printFavoriteThings = ( event ) => {
-
         console.log( `Your favorite thing is a ${ this.state.color } ${ this.state.animal }` );
-
-        event.preventDefault();
     }
 
     render() {

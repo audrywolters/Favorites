@@ -32,8 +32,6 @@ class Categories extends Component {
 
                 {/* <label className='inputColor'>Color</label>                
                 <input type='text' onChange={ (event) => this.handleInputChange( event, 'color') } /> */}
-
-                <div hidden></div>
             </div>
         )
     }

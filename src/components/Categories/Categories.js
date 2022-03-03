@@ -8,12 +8,6 @@ class Categories extends Component {
         color: ''
     }
 
-    // handleInputChange = ( event, propertyName ) => {
-    //     this.setState({
-    //         [propertyName]: event.target.value
-    //     })
-    // }
-
     clickedCharacter() {
         console.log('clicked character button');
     }

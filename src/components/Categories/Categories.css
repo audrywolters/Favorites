@@ -1,5 +1,5 @@
 .categories {
-    width: 30%;
+    width: 30vw;
     /* TODO - have to find 100% height solution when using width */
     height: 600px;
     padding: 1em;
@@ -8,17 +8,11 @@
 }
 
 label {
-    float: left;
     margin-left: .5em;
     margin-right: .5em;
 }
 
-input {
-    font-family: monospace;
-    font-size: 1em;
-    width: 15em;
-}
-
 button {
     font-size: 1em;
+    margin-right: .5em;
 }

@@ -1,8 +1,10 @@
 .episodes {
-    width: 70%;
+    /* AUDRY - width is wrong because of padding. shrug? */
+    width: 65vw;
     /* TODO - have to find 100% height solution when using width */
     height: 600px;
     padding: 1em;
     float: left;
     background-color: lightgray;
 }
+ 

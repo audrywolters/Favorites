@@ -1,5 +1,8 @@
-.dataEntry {
-    width: 20%;
+.categories {
+    width: 30%;
+    height: 100%;
+    float: left;
+    background-color: darkturquoise;
 }
 
 label {
@@ -12,11 +15,6 @@ input {
     font-family: monospace;
     font-size: 1em;
     width: 15em;
-}
-
-.inputColor {
-    margin-left: .5em;
-    margin-right: 1.1em;
 }
 
 button {

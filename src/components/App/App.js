@@ -1,15 +1,19 @@
 import React, { Component } from 'react';
 import './App.css';
-import DataEntry from '../DataEntry/DataEntry';
+import Categories from '../Categories/Categories';
+import Episodes from '../Episodes/Episodes';
 
 class App extends Component {
 
   render() {
 
     return (
-      <div className='App'>
-        <DataEntry></DataEntry>
-      </div>
+      <>
+        <div className='App'>
+          <Categories></Categories>
+          <Episodes></Episodes>
+        </div>
+      </>
     );
   }
 

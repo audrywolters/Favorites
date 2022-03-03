@@ -1,5 +1,14 @@
 .App {
   font-size: 1em;
   display: block;
-  margin: 2em;
+  padding: 2em;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+*  {
+  box-sizing: border-box;
 }

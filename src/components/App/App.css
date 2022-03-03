@@ -1,7 +1,6 @@
 .App {
   font-size: 1em;
   display: block;
-  padding: 2em;
 }
 
 body {
@@ -9,6 +8,3 @@ body {
   width: 100vw;
 }
 
-*  {
-  box-sizing: border-box;
-}

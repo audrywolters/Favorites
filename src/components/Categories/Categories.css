@@ -1,6 +1,8 @@
 .categories {
     width: 30%;
-    height: 100%;
+    /* TODO - have to find 100% height solution when using width */
+    height: 600px;
+    padding: 1em;
     float: left;
     background-color: darkturquoise;
 }
